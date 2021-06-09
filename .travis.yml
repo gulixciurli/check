@@ -15,10 +15,11 @@ git:
 addons:
   sonarcloud:
     organization: "gulixciurli"
-    token:
-      secure: "sP451U4d9TIrRHWWbziU7sSY5as3Ydgm0XzxBsDqlcxw4XSwmqTBKjPi675kB0VJBkHV8yv7sL10jA+9dV40L64P3QjCcj9Oy4IpNSWpjE2F/HoW+aAIOyCu8Zxe7jXDzyCOS91fti698W51mqQjDHAhGvkR/3MXOaJWDXeF2dtUuYoLl6cNyW0hBIBifeCI2a1nHhY2+SfoA9B1pvPkTkRJKEkqdRqxZ522yOQK/MBNlpUxIeX1joLrbq9iAK9ceD3nX+QEjG3kMEDLElExmqw13CPHbQLDGCYoCI8pmaz4oPqA0YrTZX7j7UuCD/s7EZrnnn/UD1FrMo+hq0rKeiiNuqg8XdYLnqv7Z9gK4+QALC1lgSV0o12nVPH/7M+5PJi8gTHLXy57GyknltopTCXzgvJhlzrQyfZ7dghHA4Ic+NQQMWxFwPCJXnUFkRuSWLMqc9Zu5TSezuaztkV0rSlLmT/+cUxQ2TBTX2UaDvQmWqmMs4d3NLCxw2bU1lEvz9VOjQTZJ2rLDjja3VMC/+/JtKs+ywa1GTv/i8IhJH9x7oaYrEa2PGJI9cyVJAni2O50uAEdWqIbKLI6vig5j1jnEQmuud+e6X7jPp5r6UMBHO62u+L2obv/e/4KOdfQPvBLQSyO299i5HvExQ9OraTffkc02UFkrZikvQo0ydU="
+    token: "da8e8c62cfcfc35f8e7d2a16c2df3e636da632f6"
 
 script:
+    - ant build
+    - sonar-scanner
     - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=gulixciurli_check
     - mvn clean verify -P coverageProfile
     - mkdir -p target/site/
