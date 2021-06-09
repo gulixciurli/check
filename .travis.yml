@@ -18,8 +18,6 @@ addons:
     token: "da8e8c62cfcfc35f8e7d2a16c2df3e636da632f6"
 
 script:
-    - ant build
-    - sonar-scanner
     - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=gulixciurli_check
     - mvn clean verify -P coverageProfile
     - mkdir -p target/site/
