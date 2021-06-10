@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="1.114" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/martina/eclipse-workspace/check/target/test-classes:/home/martina/eclipse-workspace/check/target/classes:/home/martina/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/martina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/martina/.m2/repository/jcs/jcs/1.3/jcs-1.3.jar:/home/martina/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/home/martina/.m2/repository/commons-configuration/commons-configuration/1.4/commons-configuration-1.4.jar:/home/martina/.m2/repository/commons-logging/commons-logging-api/1.0.4/commons-logging-api-1.0.4.jar:/home/martina/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/martina/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/martina/.m2/repository/commons-beanutils/commons-beanutils-core/1.7.0/commons-beanutils-core-1.7.0.jar:/home/martina/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/home/martina/.m2/repository/commons-jxpath/commons-jxpath/1.2/commons-jxpath-1.2.jar:/home/martina/.m2/repository/xerces/xerces/1.2.3/xerces-1.2.3.jar:/home/martina/.m2/repository/ant/ant-optional/1.5.1/ant-optional-1.5.1.jar:/home/martina/.m2/repository/jdom/jdom/b9/jdom-b9.jar:/home/martina/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/home/martina/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar:/home/martina/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar:/home/martina/.m2/repository/commons-lang/commons-lang/2.1/commons-lang-2.1.jar:/home/martina/.m2/repository/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar:/home/martina/.m2/repository/commons-pool/commons-pool/1.3/commons-pool-1.3.jar:/home/martina/.m2/repository/concurrent/concurrent/1.0/concurrent-1.0.jar:/home/martina/.m2/repository/mysql/mysql-connector-java/3.0.10/mysql-connector-java-3.0.10.jar:/home/martina/.m2/repository/hsqldb/hsqldb/1.7.3.3/hsqldb-1.7.3.3.jar:/home/martina/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/home/martina/.m2/repository/tomcat/tomcat-util/3.2.1/tomcat-util-3.2.1.jar:/home/martina/.m2/repository/velocity/velocity/1.5/velocity-1.5.jar:/home/martina/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/martina/.m2/repository/xmlrpc/xmlrpc/2.0/xmlrpc-2.0.jar:/home/martina/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar:/home/martina/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/martina/.m2/repository/berkeleydb/berkeleydb/1.5.1/berkeleydb-1.5.1.jar:/home/martina/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/home/martina/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/martina/eclipse-workspace/check/target/surefire/surefirebooter10337450261126465428.jar /home/martina/eclipse-workspace/check/target/surefire 2021-06-10T13-33-03_398-jvmRun1 surefire12994568741511302318tmp surefire_09945336491009987498tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/martina/eclipse-workspace/check/target/test-classes:/home/martina/eclipse-workspace/check/target/classes:/home/martina/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/martina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/martina/.m2/repository/jcs/jcs/1.3/jcs-1.3.jar:/home/martina/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/home/martina/.m2/repository/commons-configuration/commons-configuration/1.4/commons-configuration-1.4.jar:/home/martina/.m2/repository/commons-logging/commons-logging-api/1.0.4/commons-logging-api-1.0.4.jar:/home/martina/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/martina/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/martina/.m2/repository/commons-beanutils/commons-beanutils-core/1.7.0/commons-beanutils-core-1.7.0.jar:/home/martina/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/home/martina/.m2/repository/commons-jxpath/commons-jxpath/1.2/commons-jxpath-1.2.jar:/home/martina/.m2/repository/xerces/xerces/1.2.3/xerces-1.2.3.jar:/home/martina/.m2/repository/ant/ant-optional/1.5.1/ant-optional-1.5.1.jar:/home/martina/.m2/repository/jdom/jdom/b9/jdom-b9.jar:/home/martina/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/home/martina/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar:/home/martina/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar:/home/martina/.m2/repository/commons-lang/commons-lang/2.1/commons-lang-2.1.jar:/home/martina/.m2/repository/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar:/home/martina/.m2/repository/commons-pool/commons-pool/1.3/commons-pool-1.3.jar:/home/martina/.m2/repository/concurrent/concurrent/1.0/concurrent-1.0.jar:/home/martina/.m2/repository/mysql/mysql-connector-java/3.0.10/mysql-connector-java-3.0.10.jar:/home/martina/.m2/repository/hsqldb/hsqldb/1.7.3.3/hsqldb-1.7.3.3.jar:/home/martina/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/home/martina/.m2/repository/tomcat/tomcat-util/3.2.1/tomcat-util-3.2.1.jar:/home/martina/.m2/repository/velocity/velocity/1.5/velocity-1.5.jar:/home/martina/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/martina/.m2/repository/xmlrpc/xmlrpc/2.0/xmlrpc-2.0.jar:/home/martina/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar:/home/martina/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/martina/.m2/repository/berkeleydb/berkeleydb/1.5.1/berkeleydb-1.5.1.jar:/home/martina/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/home/martina/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/martina"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/martina/eclipse-workspace/check"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/martina/eclipse-workspace/check/target/surefire/surefirebooter10337450261126465428.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
+    <property name="user.name" value="martina"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.8.0-45-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/martina/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="/home/martina/eclipse-workspace/check"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runPutInRange[0]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.508"/>
+  <testcase name="runGetInRange[0]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.001"/>
+  <testcase name="runTestPutThenRemoveCategorical[0]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.034"/>
+  <testcase name="runPutInRange[1]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.005"/>
+  <testcase name="runGetInRange[1]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0"/>
+  <testcase name="runTestPutThenRemoveCategorical[1]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.013"/>
+  <testcase name="runPutInRange[2]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.005"/>
+  <testcase name="runGetInRange[2]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0"/>
+  <testcase name="runTestPutThenRemoveCategorical[2]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.014"/>
+  <testcase name="runPutInRange[3]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.01"/>
+  <testcase name="runGetInRange[3]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.002"/>
+  <testcase name="runTestPutThenRemoveCategorical[3]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.015"/>
+  <testcase name="runPutInRange[4]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.048"/>
+  <testcase name="runGetInRange[4]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.005"/>
+  <testcase name="runTestPutThenRemoveCategorical[4]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.14"/>
+  <testcase name="runPutInRange[5]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.002"/>
+  <testcase name="runGetInRange[5]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.001"/>
+  <testcase name="runTestPutThenRemoveCategorical[5]" classname="it.uniroma2.dicii.isw2.jcs.paramTests.RemovalTestUtil" time="0.016"/>
+</testsuite>
